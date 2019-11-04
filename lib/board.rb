@@ -17,6 +17,6 @@ class Board
   end
 
   def render
-    @game_board.inspect
+    @game_board
   end
 end
