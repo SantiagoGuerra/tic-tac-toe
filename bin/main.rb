@@ -46,7 +46,7 @@ loop do
   game.current_player.is_winner = false
   puts "#{game.current_player.name} you want to start the game? Y/N"
   game.next_to_play unless gets.chomp.to_s[0].upcase == 'Y'
-  
+
   loop do
     puts render_board(game.board.render)
 
@@ -58,14 +58,15 @@ loop do
     break if game.running?
   end
   puts render_board(game.board.render)
-  
+
   puts "Congratulations #{game.current_player.name}! you won.\n\n" if game.current_player.is_winner
-  
+
   puts "Nobody win\n\n" unless game.not_a_tie?
 
   print 'Do you want to play again? Y/N: '
   new_game = gets.chomp.to_s[0].upcase == 'Y'
   break unless new_game
+
   puts "\n\n"
 end
 
