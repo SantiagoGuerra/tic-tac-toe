@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-load 'player.rb'
-load 'board.rb'
+require_relative 'player.rb'
+require_relative 'board.rb'
 
 class Game
   # rubocop:disable Metrics/LineLength
