@@ -71,7 +71,7 @@ If you want to install and play the game you need:
 
 1. The game is played on a grid that's 3 squares by 3 squares.
 ```
-       1 | 2 | 3
+           1 | 2 | 3
 	   - + - + -
 	   4 | 5 | 6
 	   - + - + -
@@ -83,7 +83,7 @@ If you want to install and play the game you need:
 
 ```
 Your turn
-       X | 2 | 3
+           X | 2 | 3
 	   - + - + -
 	   4 | 5 | 6
 	   - + - + -
@@ -91,7 +91,7 @@ Your turn
 
 Your friends' turn
 
-       X | 2 | 3
+           X | 2 | 3
 	   - + - + -
 	   4 | O | 6
 	   - + - + -
@@ -104,11 +104,11 @@ Your friends' turn
 ```
 Winning combinations (W is equal to X or O)
 
-       W | W | W       1 | 2 | 3	   1 | 2 | 3       W | 2 | 3       1 | W | 3	   1 | 2 | W       W | 2 | 3	   1 | 2 | W
-	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -
-	   4 | 5 | 6	   W | W | W	   4 | 5 | 6	   W | 5 | 6	   4 | W | 6	   4 | 5 | W	   4 | W | 6	   4 | W | 6
-	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -
-	   7 | 8 | 9	   7 | 8 | 9	   W | W | W	   W | 8 | 9	   7 | W | 9	   7 | 8 | W	   7 | 8 | W	   W | 8 | 9
+   W | W | W       1 | 2 | 3	   1 | 2 | 3       W | 2 | 3       1 | W | 3	   1 | 2 | W       W | 2 | 3	   1 | 2 | W
+   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -
+   4 | 5 | 6	   W | W | W	   4 | 5 | 6	   W | 5 | 6	   4 | W | 6	   4 | 5 | W	   4 | W | 6	   4 | W | 6
+   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -	   - + - + -
+   7 | 8 | 9	   7 | 8 | 9	   W | W | W	   W | 8 | 9	   7 | W | 9	   7 | 8 | W	   7 | 8 | W	   W | 8 | 9
 
 ```
 
@@ -117,7 +117,7 @@ Winning combinations (W is equal to X or O)
 ```
 for example: nobody wins
 
-       X | X | O
+           X | X | O
 	   - + - + -
 	   O | O | X
 	   - + - + -
