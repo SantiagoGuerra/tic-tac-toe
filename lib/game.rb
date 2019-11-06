@@ -14,12 +14,12 @@ class Game
     @player2 = player2
     @board = board
     @current_player = @player2.is_winner ? player2 : player1
-    @turns = 8
+    @turns = 0
   end
 
   # rubocop:enable Metrics/LineLength
   def running?
-    @current_player.is_winner || !not_a_tie?
+    @current_player.is_winner || not_a_tie?
   end
 
   def detect_winner
@@ -43,11 +43,11 @@ class Game
     @current_player.cell_selected = cell_selected
     @board.change_cell(@current_player.cell_selected, @current_player.piece)
     detect_winner
-    @turns -= 1
+    @turns += 1
     next_to_play unless detect_winner
   end
 
   def not_a_tie?
-    @turns.positive?
+    @turns >= 9
   end
 end

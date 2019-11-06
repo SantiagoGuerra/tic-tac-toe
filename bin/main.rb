@@ -57,7 +57,7 @@ loop do
 
   puts "Congratulations #{game.current_player.name}! you won.\n\n" if game.current_player.is_winner
 
-  puts "Nobody win\n\n" unless game.not_a_tie?
+  puts "Nobody win\n\n" if game.not_a_tie?
 
   print 'Do you want to play again? (N for No) '
   new_game = !start_game?(gets.chomp)
