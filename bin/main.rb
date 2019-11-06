@@ -11,26 +11,22 @@ puts "This is Tic tac toe game.\n\n"
 
 # Ask for players' info
 print 'Player 1 - What is your name?: '
-player_one_name = gets.chomp
+player_one_name = validate_name(gets.chomp, 1)
 player_one = Player.new(player_one_name)
 puts "Thank you: #{player_one.name}\n\n"
 
 print 'Player 2 - What is yours?: '
-player_two_name = gets.chomp
+player_two_name = validate_name(gets.chomp, 2)
 player_two = Player.new(player_two_name)
 puts "Thank you: #{player_two.name}\n\n"
 
 print "#{player_one.name} do you choose X or O ?: "
 
-player_one_chip = gets.chomp.to_sym
+player_one.piece = validate_chip(gets.chomp.to_sym)
 
-validate_chip(player_one, player_one_chip)
+puts "#{player_one.name} chose: #{player_one.piece}\n\n"
 
-puts "#{player_one.name} chose: #{player_one_chip}\n\n"
-
-player_two_chip = player_one_chip == :X ? :O : :X
-
-player_two.piece = player_two_chip
+player_two.piece = player_one.piece == :X ? :O : :X
 
 puts "#{player_two.name}, you'll use #{player_two.piece} \n\n\n"
 
@@ -44,8 +40,8 @@ new_game = true
 loop do
   game = Game.new(player_one, player_two, Board.new)
   game.current_player.is_winner = false
-  puts "#{game.current_player.name} you want to start the game? Y/N"
-  game.next_to_play unless gets.chomp.to_s[0].upcase == 'Y'
+  puts "#{game.current_player.name} you want to start the game? (N for No)"
+  game.next_to_play if start_game?(gets.chomp)
 
   loop do
     puts render_board(game.board.render)
@@ -63,11 +59,11 @@ loop do
 
   puts "Nobody win\n\n" unless game.not_a_tie?
 
-  print 'Do you want to play again? Y/N: '
-  new_game = gets.chomp.to_s[0].upcase == 'Y'
+  print 'Do you want to play again? (N for No) '
+  new_game = !start_game?(gets.chomp)
   break unless new_game
 
   puts "\n\n"
 end
 
-print "\n\nTic tac toe: see you for a next match!\n\n"
+print "\n\nTic tac toe game: see you for a next match!\n\n"
