@@ -64,7 +64,15 @@ This is also the first project of the Odin project (Ruby Project [Programing: OO
 
 If you want to install and play the game you need: 
 * ruby installed in your computer
-* [download](https://github.com/SantiagoGuerra/tic-tac-toe/archive/master.zip) or [clone](https://github.com/SantiagoGuerra/tic-tac-toe.git) this repo.
+* [download](https://github.com/SantiagoGuerra/tic-tac-toe/archive/master.zip) or clone this repo
+  - Clone over HTTPS:
+  ```
+   $ git clone https://github.com/SantiagoGuerra/tic-tac-toe.git
+  ```
+  - Clone over SSH:
+  ```
+   $ git clone ssh://git@github.com:SantiagoGuerra/tic-tac-toe.git
+  ```
 * and execute bin/main.rb file 
 
 ## Game Rules
