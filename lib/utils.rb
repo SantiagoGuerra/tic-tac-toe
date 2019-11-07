@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
-def validate_chip(player, piece)
-  if %I[X O].include?(piece)
-    player.piece = piece
-  else
-    puts "Please, choose a valid piece (X , O) \n"
-    validate_chip player, gets.chomp.to_sym
-  end
+def validate_chip(piece)
+  return piece.upcase if %I[X O].include?(piece.upcase)
+
+  puts "Please, choose a valid piece (X , O) \n"
+  validate_chip gets.chomp.to_sym
 end
 
 def validate_selection(num, board)
@@ -27,4 +25,18 @@ def render_board(board)
   end
   str[-2] = "\n"
   str
+end
+
+def validate_name(name, player)
+  return 'Player1' if name.to_s.strip == '' && player == 1
+
+  return 'Player2' if name.to_s.strip == '' && player == 2
+
+  name
+end
+
+def start_game?(choice)
+  return choice.to_s[0].upcase == 'N' unless choice.to_s.strip == ''
+
+  false
 end

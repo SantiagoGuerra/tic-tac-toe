@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 class Player
-  attr_accessor :cell_selected
-  attr_reader :piece, :name, :is_winner
+  attr_accessor :cell_selected, :is_winner
+  attr_reader :piece, :name
   def initialize(name, cell_selected = nil)
     @cell_selected = cell_selected
     @name ||= name
@@ -13,10 +13,6 @@ class Player
   # rubocop:disable Naming/MemoizedInstanceVariableName
   def piece=(piece)
     @piece ||= piece
-  end
-
-  def is_winner=(bool)
-    @is_winner ||= bool
   end
   # rubocop:enable Naming/MemoizedInstanceVariableName
 end
