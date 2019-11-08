@@ -1,4 +1,4 @@
-# spec/test_player.rb
+# spec/test_board.rb
 
 # frozen_string_literal: true
 

@@ -3,8 +3,8 @@
 class Player
   attr_accessor :cell_selected, :is_winner
   attr_reader :piece, :name
-  def initialize(name, cell_selected = nil)
-    @cell_selected = cell_selected
+  def initialize(name)
+    @cell_selected = nil
     @name ||= name
     @is_winner = false
     @piece = nil

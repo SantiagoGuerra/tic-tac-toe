@@ -38,7 +38,7 @@ puts "Whoever gets a straight line wins. Lets start!\n\n"
 # Game play
 new_game = true
 loop do
-  game = Game.new(player_one, player_two, Board.new)
+  game = Game.new(player_one, player_two)
   game.current_player.is_winner = false
   puts "#{game.current_player.name} you want to start the game? (N for No)"
   game.next_to_play if start_game?(gets.chomp)
