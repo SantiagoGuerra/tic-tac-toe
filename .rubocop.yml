@@ -4,7 +4,8 @@ AllCops:
     - "db/**/*"
     - "config/**/*"
     - "Guardfile"
-    - "Rakefile"
+    - "Rakefile"	
+    - "spec/spec_helper.rb"
   DisplayCopNames: true
 
 Metrics/LineLength:
