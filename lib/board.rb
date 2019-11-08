@@ -10,11 +10,13 @@ class Board
     render
   end
 
-  def change_error?(cell_selected = 0)
-    true unless @game_board[cell_selected] == 'X' || @game_board[cell_selected] == 'O'
-  end
-
   def render
     @game_board
+  end
+
+  private
+
+  def change_error?(cell_selected = 0)
+    true unless @game_board[cell_selected] == 'X' || @game_board[cell_selected] == 'O'
   end
 end
