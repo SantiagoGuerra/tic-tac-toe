@@ -50,5 +50,9 @@ RSpec.describe Player do
     it 'returns a Player' do
       expect(Player.new('Player3').class).to eq(Player)
     end
+
+    it 'returns an ArgumentError if the Player is initialized with no arguments or more than 1 arguments' do
+      expect { Player.new }.to raise_error(ArgumentError)
+    end
   end
 end
