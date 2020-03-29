@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://repl.it/@MariaEugeniaEu2/tic-tac-toe)
+[![Product Name Screen Shot][product-screenshot]](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
 
 This is the fifth project of the Microverse Ruby Section
 
@@ -144,7 +144,7 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it working [here](https://repl.it/@MariaEugeniaEu2/tic-tac-toe)
+You can see it working [here](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
 
 <!-- CONTACT -->
 ## Contact
