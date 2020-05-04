@@ -67,6 +67,7 @@ This is also the first project of the Odin project (Ruby Project [Programing: OO
 ### Built With
 This project was built using these technologies.
 * Ruby
+* Rspec
 * Rubocop
 * VsCode
 * Notepad++
@@ -90,6 +91,13 @@ If you want to install and play the game you need:
    $ git clone ssh://git@github.com:SantiagoGuerra/tic-tac-toe.git
   ```
 * and execute bin/main.rb file 
+
+<!-- AUTOMATED TEST -->
+### Automated Test
+
+To run the test you need to cd into the tic-tac-toe diretory and run:
+
+```rspec spec/```
 
 ## Game Rules
 
