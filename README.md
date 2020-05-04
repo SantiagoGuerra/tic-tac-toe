@@ -47,8 +47,12 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Live Version](#live-version)
-* [Contact](#contact)
+  * [Live Version](#live-version)
+  * [Usage](#usage)
+  * [Automated Test](#automated-test)
+* [Game Rules](#game_rules)
+* [Author](#author)
+* [Contributing](#contributing)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
@@ -60,8 +64,19 @@ This is the fifth project of the Microverse Ruby Section
 
 This is also the first project of the Odin project (Ruby Project [Programing: OOP](https://www.theodinproject.com/courses/ruby-programming/lessons/oop))
 
-<!-- ABOUT THE PROJECT -->
-## Installation
+### Built With
+This project was built using these technologies.
+* Ruby
+* Rubocop
+* VsCode
+* Notepad++
+
+<!-- LIVE VERSION -->
+### Live Version
+
+You can see it working [here](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
+
+### Usage
 
 If you want to install and play the game you need: 
 * ruby installed in your computer
@@ -133,28 +148,28 @@ for example: nobody wins
 	   X | O | O
 
 ```
-
-### Built With
-This project was built using these technologies.
-* Ruby
-* Rubocop
-* VsCode
-* Notepad++
-
-<!-- LIVE VERSION -->
-## Live version
-
-You can see it working [here](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
-
 <!-- CONTACT -->
-## Contact
+## Author
+👤 **María Eugenia Quemé** 
 
-Santiago Guerra - [@santi_gueam](https://twitter.com/santi_gueam)  - [@SantiagoGuerra](https://github.com/SantiagoGuerra) - guerrasantiago19@gmail.com
-<br />
-<br />
-María Eugenia Quemé - [@MaruKK](https://twitter.com/MaruKK) - [@euqueme](https://github.com/euqueme) - euqueme@gmail.com
+- Twitter: [@MaruKK](https://twitter.com/MaruKK) 
+- Github: [@euqueme](https://github.com/euqueme) 
+- Gmail: euqueme@gmail.com
 
-Project Link: [https://github.com/SantiagoGuerra/tic-tac-toe)
+👤 **Santiago Guerra** 
+- Twitter: [@santi_gueam](https://twitter.com/santi_gueam) 
+- Github: [@SantiagoGuerra](https://github.com/SantiagoGuerra) 
+- Gmail: guerrasantiago19@gmail.com
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/euqueme/tic-tac-toe/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
