@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/SantiagoGuerra/tic-tac-toe">
+  <a href="https://github.com/euqueme/tic-tac-toe">
     <img src="img/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -31,14 +31,14 @@
   <p align="center">
     This project is part of the Microverse Ruby curriculum!
     <br />
-    <a href="https://github.com/SantiagoGuerra/tic-tac-toe"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/euqueme/tic-tac-toe"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://repl.it/@MariaEugeniaEu2/tic-tac-toe">View Demo</a>
     ·
-    <a href="https://github.com/SantiagoGuerra/tic-tac-toe/issues">Report Bug</a>
+    <a href="https://github.com/euqueme/tic-tac-toe/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SantiagoGuerra/tic-tac-toe/issues">Request Feature</a>
+    <a href="https://github.com/euqueme/tic-tac-toe/issues">Request Feature</a>
   </p>
 </p>
 
@@ -81,14 +81,14 @@ You can see it working [here](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
 
 If you want to install and play the game you need: 
 * ruby installed in your computer
-* [download](https://github.com/SantiagoGuerra/tic-tac-toe/archive/master.zip) or clone this repo
+* [download](https://github.com/euqueme/tic-tac-toe/archive/development.zip) or clone this repo
   - Clone over HTTPS:
   ```
-   $ git clone https://github.com/SantiagoGuerra/tic-tac-toe.git
+   $ git clone https://github.com/euqueme/tic-tac-toe.git
   ```
   - Clone over SSH:
   ```
-   $ git clone ssh://git@github.com:SantiagoGuerra/tic-tac-toe.git
+   $ git clone ssh://git@github.com:euqueme/tic-tac-toe.git
   ```
 * and execute bin/main.rb file 
 
@@ -188,12 +188,12 @@ Give a ⭐️ if you like this project!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[contributors-url]: https://github.com/SantiagoGuerra/tic-tac-toe/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[forks-url]: https://github.com/SantiagoGuerra/tic-tac-toe/network/members
-[stars-shield]: https://img.shields.io/github/stars/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[stars-url]: https://github.com/SantiagoGuerra/tic-tac-toe/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[issues-url]: https://github.com/SantiagoGuerra/tic-tac-toe/issues
+[contributors-shield]: https://img.shields.io/github/contributors/euqueme/tic-tac-toe.svg?style=flat-square
+[contributors-url]: https://github.com/euqueme/tic-tac-toe/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/euqueme/tic-tac-toe.svg?style=flat-square
+[forks-url]: https://github.com/euqueme/tic-tac-toe/network/members
+[stars-shield]: https://img.shields.io/github/stars/euqueme/tic-tac-toe.svg?style=flat-square
+[stars-url]: https://github.com/euqueme/tic-tac-toe/stargazers
+[issues-shield]: https://img.shields.io/github/issues/euqueme/tic-tac-toe.svg?style=flat-square
+[issues-url]: https://github.com/euqueme/tic-tac-toe/issues
 [product-screenshot]: img/screenshot.PNG
