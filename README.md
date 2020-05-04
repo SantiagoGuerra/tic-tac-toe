@@ -50,7 +50,7 @@
   * [Live Version](#live-version)
   * [Usage](#usage)
   * [Automated Test](#automated-test)
-* [Game Rules](#game_rules)
+* [Game Rules](#game-rules)
 * [Author](#author)
 * [Contributing](#contributing)
 * [Acknowledgements](#acknowledgements)
