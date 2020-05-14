@@ -111,7 +111,7 @@ To run the test you need to cd into the tic-tac-toe diretory and run:
 
 ```
 
-2. You can either be X or O, your friend would be the one you don't choose by default (if you choose X your friend will be O). Players take turns putting their marks in empty squares.
+2. You can either be X or O; your friend will take the opposing sign by default (in other words, if you choose X, your friend will be O). Players take turns placing their marks in empty squares.
 
 ```
 Your turn
