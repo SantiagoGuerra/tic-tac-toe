@@ -17,11 +17,12 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/SantiagoGuerra/tic-tac-toe">
+  <a href="https://github.com/euqueme/tic-tac-toe">
     <img src="img/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,14 +31,14 @@
   <p align="center">
     This project is part of the Microverse Ruby curriculum!
     <br />
-    <a href="https://github.com/SantiagoGuerra/tic-tac-toe"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/euqueme/tic-tac-toe"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://repl.it/@MariaEugeniaEu2/tic-tac-toe">View Demo</a>
     ·
-    <a href="https://github.com/SantiagoGuerra/tic-tac-toe/issues">Report Bug</a>
+    <a href="https://github.com/euqueme/tic-tac-toe/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SantiagoGuerra/tic-tac-toe/issues">Request Feature</a>
+    <a href="https://github.com/euqueme/tic-tac-toe/issues">Request Feature</a>
   </p>
 </p>
 
@@ -46,34 +47,57 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Live Version](#live-version)
-* [Contact](#contact)
+  * [Live Version](#live-version)
+  * [Usage](#usage)
+  * [Automated Test](#automated-test)
+* [Game Rules](#game-rules)
+* [Author](#author)
+* [Contributing](#contributing)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://repl.it/@MariaEugeniaEu2/tic-tac-toe)
+[![Product Name Screen Shot][product-screenshot]](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
 
 This is the fifth project of the Microverse Ruby Section
 
 This is also the first project of the Odin project (Ruby Project [Programing: OOP](https://www.theodinproject.com/courses/ruby-programming/lessons/oop))
 
-<!-- ABOUT THE PROJECT -->
-## Installation
+### Built With
+This project was built using these technologies.
+* Ruby
+* Rspec
+* Rubocop
+* VsCode
+* Notepad++
+
+<!-- LIVE VERSION -->
+### Live Version
+
+You can see it working [here](https://tic-tac-toe.mariaeugeniaeu2.repl.run/)
+
+### Usage
 
 If you want to install and play the game you need: 
 * ruby installed in your computer
-* [download](https://github.com/SantiagoGuerra/tic-tac-toe/archive/master.zip) or clone this repo
+* [download](https://github.com/euqueme/tic-tac-toe/archive/development.zip) or clone this repo
   - Clone over HTTPS:
   ```
-   $ git clone https://github.com/SantiagoGuerra/tic-tac-toe.git
+   $ git clone https://github.com/euqueme/tic-tac-toe.git
   ```
   - Clone over SSH:
   ```
-   $ git clone ssh://git@github.com:SantiagoGuerra/tic-tac-toe.git
+   $ git clone ssh://git@github.com:euqueme/tic-tac-toe.git
   ```
 * and execute bin/main.rb file 
+
+<!-- AUTOMATED TEST -->
+### Automated Test
+
+To run the test you need to cd into the tic-tac-toe diretory and run:
+
+```rspec spec/```
 
 ## Game Rules
 
@@ -87,7 +111,7 @@ If you want to install and play the game you need:
 
 ```
 
-2. You can either be X or O, your friend would be the one you don't choose by default (if you choose X your friend will be O). Players take turns putting their marks in empty squares.
+2. You can either be X or O; your friend will take the opposing sign by default (in other words, if you choose X, your friend will be O). Players take turns placing their marks in empty squares.
 
 ```
 Your turn
@@ -132,28 +156,28 @@ for example: nobody wins
 	   X | O | O
 
 ```
-
-### Built With
-This project was built using these technologies.
-* Ruby
-* Rubocop
-* VsCode
-* Notepad++
-
-<!-- LIVE VERSION -->
-## Live version
-
-You can see it working [here](https://repl.it/@MariaEugeniaEu2/tic-tac-toe)
-
 <!-- CONTACT -->
-## Contact
+## Author
+👤 **María Eugenia Quemé** 
 
-Santiago Guerra - [@santi_gueam](https://twitter.com/santi_gueam)  - [@SantiagoGuerra](https://github.com/SantiagoGuerra) - guerrasantiago19@gmail.com
-<br />
-<br />
-María Eugenia Quemé - [@MaruKK](https://twitter.com/MaruKK) - [@euqueme](https://github.com/euqueme) - euqueme@gmail.com
+- Twitter: [@MaruKK](https://twitter.com/MaruKK) 
+- Github: [@euqueme](https://github.com/euqueme) 
+- Gmail: euqueme@gmail.com
 
-Project Link: [https://github.com/SantiagoGuerra/tic-tac-toe)
+👤 **Santiago Guerra** 
+- Twitter: [@santi_gueam](https://twitter.com/santi_gueam) 
+- Github: [@SantiagoGuerra](https://github.com/SantiagoGuerra) 
+- Gmail: guerrasantiago19@gmail.com
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/euqueme/tic-tac-toe/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -164,12 +188,12 @@ Project Link: [https://github.com/SantiagoGuerra/tic-tac-toe)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[contributors-url]: https://github.com/SantiagoGuerra/tic-tac-toe/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[forks-url]: https://github.com/SantiagoGuerra/tic-tac-toe/network/members
-[stars-shield]: https://img.shields.io/github/stars/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[stars-url]: https://github.com/SantiagoGuerra/tic-tac-toe/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SantiagoGuerra/tic-tac-toe.svg?style=flat-square
-[issues-url]: https://github.com/SantiagoGuerra/tic-tac-toe/issues
+[contributors-shield]: https://img.shields.io/github/contributors/euqueme/tic-tac-toe.svg?style=flat-square
+[contributors-url]: https://github.com/euqueme/tic-tac-toe/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/euqueme/tic-tac-toe.svg?style=flat-square
+[forks-url]: https://github.com/euqueme/tic-tac-toe/network/members
+[stars-shield]: https://img.shields.io/github/stars/euqueme/tic-tac-toe.svg?style=flat-square
+[stars-url]: https://github.com/euqueme/tic-tac-toe/stargazers
+[issues-shield]: https://img.shields.io/github/issues/euqueme/tic-tac-toe.svg?style=flat-square
+[issues-url]: https://github.com/euqueme/tic-tac-toe/issues
 [product-screenshot]: img/screenshot.PNG
